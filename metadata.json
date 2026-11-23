@@ -1,0 +1,170 @@
+{
+  "nama_model": "Naive Bayes (GaussianNB)",
+  "tanggal_dibuat": "2026-11-23",
+  "versi_sklearn": "1.9.1",
+  "kolom_input": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "campaign",
+    "previous",
+    "poutcome",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "pernah_dihubungi"
+  ],
+  "fitur_numerik": [
+    "age",
+    "campaign",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed"
+  ],
+  "fitur_kategorik": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome",
+    "pernah_dihubungi"
+  ],
+  "nilai_kategorik": {
+    "job": [
+      "admin.",
+      "blue-collar",
+      "entrepreneur",
+      "housemaid",
+      "management",
+      "retired",
+      "self-employed",
+      "services",
+      "student",
+      "technician",
+      "unemployed",
+      "unknown"
+    ],
+    "marital": [
+      "divorced",
+      "married",
+      "single",
+      "unknown"
+    ],
+    "education": [
+      "basic.4y",
+      "basic.6y",
+      "basic.9y",
+      "high.school",
+      "illiterate",
+      "professional.course",
+      "university.degree",
+      "unknown"
+    ],
+    "default": [
+      "no",
+      "unknown",
+      "yes"
+    ],
+    "housing": [
+      "no",
+      "unknown",
+      "yes"
+    ],
+    "loan": [
+      "no",
+      "unknown",
+      "yes"
+    ],
+    "contact": [
+      "cellular",
+      "telephone"
+    ],
+    "month": [
+      "apr",
+      "aug",
+      "dec",
+      "jul",
+      "jun",
+      "mar",
+      "may",
+      "nov",
+      "oct",
+      "sep"
+    ],
+    "day_of_week": [
+      "fri",
+      "mon",
+      "thu",
+      "tue",
+      "wed"
+    ],
+    "poutcome": [
+      "failure",
+      "nonexistent",
+      "success"
+    ],
+    "pernah_dihubungi": [
+      "tidak",
+      "ya"
+    ]
+  },
+  "rentang_numerik": {
+    "age": [
+      17.0,
+      98.0
+    ],
+    "campaign": [
+      1.0,
+      56.0
+    ],
+    "previous": [
+      0.0,
+      6.0
+    ],
+    "emp.var.rate": [
+      -3.4,
+      1.4
+    ],
+    "cons.price.idx": [
+      92.201,
+      94.767
+    ],
+    "cons.conf.idx": [
+      -50.8,
+      -26.9
+    ],
+    "euribor3m": [
+      0.634,
+      4.97
+    ],
+    "nr.employed": [
+      4963.6,
+      5228.1
+    ]
+  },
+  "kelas": [
+    "no",
+    "yes"
+  ],
+  "metrik_uji": {
+    "accuracy": 0.8606,
+    "macro_f1": 0.6552
+  }
+}

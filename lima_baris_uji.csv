@@ -1,0 +1,6 @@
+age,job,marital,education,default,housing,loan,contact,month,day_of_week,campaign,previous,poutcome,emp.var.rate,cons.price.idx,cons.conf.idx,euribor3m,nr.employed,pernah_dihubungi,y_aktual,y_prediksi_colab
+31,management,married,university.degree,no,no,no,cellular,aug,mon,11,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,tidak,no,no
+47,admin.,divorced,high.school,no,yes,no,cellular,sep,tue,1,1,success,-3.4,92.379,-29.8,0.77,5017.5,ya,no,yes
+53,retired,married,basic.9y,unknown,no,no,cellular,jul,fri,2,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,tidak,no,no
+32,services,married,basic.9y,no,yes,no,cellular,may,wed,1,0,nonexistent,-1.8,92.893,-46.2,1.281,5099.1,tidak,no,no
+45,admin.,married,university.degree,no,yes,no,cellular,aug,mon,1,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,tidak,no,no
